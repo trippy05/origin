@@ -43,6 +43,7 @@ int main() {
     file2 << endl;
 
     file.close();
+    file.close2();
     delete[] array1;
     delete[] array2;
     return 0;
