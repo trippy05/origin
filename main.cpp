@@ -26,8 +26,8 @@ int main() {
         file >> array2[i]; 
     }
     temp2 = array2[size2-1];
-    for (int i = size2; i >= 0; i--){
-        array2[i-1] = array2[i-2]; 
+    for (int i = (size2-1); i > 0; i--){
+        array2[i] = array2[i-1]; 
     }
     array2[0] = temp2;
     file2 << size2 << endl;
